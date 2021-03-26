@@ -1,0 +1,100 @@
+:root {
+   --green-1:#17C08E;
+   --green-2:#13F399;
+   --green-3:#259272;
+   --white-1:#ffffff;
+   --white-2:#e4e4e4;
+}
+
+.font-white {
+   color: var(--white-1);
+}
+
+.mvh-100 {
+   min-height: 100vh !important;
+}
+
+.bg-transparent{
+   background: transparent;
+}
+
+.main-container {
+   background: linear-gradient(180deg, var(--green-1) 0%, var(--green-2) 100%);
+   background-blend-mode: multiply;
+}
+
+.navbar {
+   padding-top:25px;
+   padding-bottom:10px;
+}
+
+h1 {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 40px;
+}
+
+h3 {
+   font-style: normal;
+   font-weight: normal;
+   line-height: 35px;
+}
+
+.btn-green {
+   background: var(--green-3);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 47px;
+   padding: 20px 22px;
+   color: var(--white-1);
+   font-size: 24px;
+}
+
+.btn-green:hover {
+   color: var(--white-2) !important;
+}
+
+.btn-link-custom {
+   padding: 20px 22px;
+   color: var(--white-1);
+   font-size: 24px;
+   text-decoration: underline;
+}
+
+.btn-link-custom:hover {
+   color: var(--white-2) !important;
+}
+
+.row.feature h3 {
+   color:var(--white-1);
+}
+
+.row.feature .title h3 {
+   font-weight: 500;
+}
+
+.row.feature .desc p {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   color: var(--white-1);
+}
+
+.footer {
+   height: 73px;
+   background: var(--green-3);
+}
+
+.float-right {
+   float: right !important;
+}
+
+.footer a.link {
+   color: var(--white-1);
+   text-decoration: none;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+}
+.footer .nav-link {
+   padding: 23px;
+}
